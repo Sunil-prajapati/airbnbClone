@@ -1,0 +1,16 @@
+CSR:
+on build we have everything in bundle like html, css and js 
+but on server we categorized all three things 
+in that case on client browser we get html > css > js 
+this also creates problems for seo because sometimes there is delay for some reason so we don't got anything on the page 
+for some time
+
+SSR:
+Generate on each request
+Rendering handle on the server side 
+always create web page on sever on behalf of client side request 
+in some condition user don't have RAM power so site load on server it shows them fast 
+
+SSG: Generate on build time (static site generation)
+create every different page 
+all the stages are similar build, sever and client browser

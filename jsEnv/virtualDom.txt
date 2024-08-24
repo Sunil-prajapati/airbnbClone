@@ -1,0 +1,27 @@
+createRoot creates a DOM which helps to compare with the browser DOM 
+IN VIRTUAL dom react have it's track of changes 
+react use fibre algorithm to update virtual DOM 
+key feature of fibre such as pause, abort and reuse  (important)
+also gives priorities to the changes 
+
+
+Reconciliation : The algorithm React uses to diff one tree with another to determine which parts need to be changed.(virtual and react tree)
+Diffing algorithm we use in Reconciliation
+
+Although Fiber is a ground-up rewrite of the reconciler,
+
+virtual dom : we have less prop (approx seven)
+const h1_virtual = <h1>this is virtual dom element </h1>
+
+real dom : we have a lot of properties 
+const real_h1 = document.createElement("h1")
+real_h1.innerText("This is real dom")
+
+console.dir(real_h1)
+
+every element is object 
+
+we don't update the real dom on browser in react until we finalized the changes 
+
+Qns: why we compare with virtual dom why not not with real dom 
+Ans: because we have to compare very less properties of elements, in virtual we only have most 8 properties to compare but in real we have at least 150

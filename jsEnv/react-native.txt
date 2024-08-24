@@ -1,0 +1,2 @@
+main diff bw expo cli and react-native cli 
+with expo cli we cannot use native api of android and ios

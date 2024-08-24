@@ -1,0 +1,11 @@
+Dynamic routing 
+
+with :
+e.g: path:'/:contact'
+
+react provides useParams 
+
+const params = useParams
+const countryName = params.country
+
+for going back to the page we can use history.back()

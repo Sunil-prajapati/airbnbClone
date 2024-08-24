@@ -1,0 +1,80 @@
+h1{
+   color: aqua; 
+}
+
+border-boxing
+specificity : id, class, element (in order) 
+div is stack element(always starts with new line and always takes 100% of its' aspect ratio)
+span is inline element(width height does not work in this)
+img tag  :default display:inline 
+relative move with static position 
+absolute element look for non-static element (come out of the dom)
+flexbox css3 property 
+if we give display flex to parent element of span then only width height property works 
+
+
+js 
+refrence type data type (non-primitive)
+when we copy array it always copy memory allocation 
+promise is object that represent the compition and failure
+
+
+1. clipPath:circle(50% at 0 0)
+clipPath: polygon() in this you can get code online 
+we can also use svg
+
+2. perspective for 3d effect(parent element)
+
+.frame{
+   width: 500px;
+   height: 500px;
+   border: 3px solid red;
+   perspective: 800px
+
+}
+
+.shape{
+   width:500px;
+   height:500px;
+   background-color: antiquewhite;
+   transform: rotateX(45deg);
+   transform: all 3s ease;
+}
+
+3. aspect ratio
+
+.cr{
+   width: 100%;
+   aspect-ratio: 16/9;
+}
+
+4.filters 
+
+img{
+   filter: blur(10px);
+   filter: grayscale(100%);
+}
+
+5.pseudo class
+   .item: where(h1,h2,h4,p){
+      color : red
+   }
+
+   is has higher priority then where 
+.review:has(button) .content{
+   filter: blur(10px);
+}
+
+6. 
+::cue{
+   background-color: black;
+   font-size: 50px;
+}
+
+7.
+.page{
+height: 100vh;
+height: 100dvh;
+height: 100svh
+   
+}
